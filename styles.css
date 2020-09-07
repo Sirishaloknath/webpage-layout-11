@@ -1,0 +1,305 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 550px 550px 550px 550px;
+  grid-template-rows: 230px 230px;
+  margin-left: 70px;
+  grid-column-gap: 40px;
+  padding: 50px 50px;
+  height: 50vh;
+}
+.grid-container > div {
+  text-align: center;
+}
+.caption1{
+padding-left: 150px;
+position: relative;
+bottom: 200px;
+}
+.caption2{
+  padding-left: 250px;
+  position: relative;
+  bottom: 200px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  float: left;
+  margin: 20px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 10px 20px;
+}
+
+.caption{
+  margin-left: 950px;
+ position: relative;
+ bottom: 300px;
+  height: 5vh;
+}
+
+.client{
+  text-align: center;
+  position: relative;
+ bottom: 450px;
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.checked {
+  color: orange;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin-bottom: 60px;
+  margin-left: 40px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.vl {
+  border-left:  solid gray;
+  height: 100px;
+}
+
+div.c {
+  position: absolute;
+  left: 200px;
+  width: 200px;
+
+}
+
+div.b {
+  position: absolute;
+  right: 500px;
+  width: 200px;
+}
+
+div.a {
+  position: absolute;
+  right: 50px;
+  width: 200px;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+.card-title{
+  position: relative;
+  top:40px;
+  left:100px;
+  margin-top: 10px;
+}
+.button1{
+  margin-left: 390px;
+  position: relative;
+  bottom:41px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 6px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #555555;
+}
+.card-title1{
+  position: relative;
+  font-size: 35px;
+  left:60px;
+  bottom: 40px;
+}
+.text{
+  color:white; 
+  position: relative;
+  bottom:35px;
+}
+.fas{
+  color: white;
+}
+.cap1 {
+  margin-left: 120px;
+  position: relative;
+  bottom:20px;
+}
+.cap2{
+  margin-left: 350px;
+  position: relative;
+  bottom:215px;
+
+}
+.cap3{
+  margin-left: 550px;
+  position: relative;
+  bottom:410px;
+
+}
+.cap4{
+  margin-left: 800px;
+  position: relative;
+  bottom:605px;
+}
+.capt{
+  padding-left: 150px;
+  position: relative;
+  bottom: 200px;
+  height:20px;
+}
+.capt1{
+  padding-left: 150px;
+  position: relative;
+  top:-25px;
+  height:19px;
+}
+
+
+.capt2{
+  padding-left: 150px;
+  position: relative;
+  top:150px;
+  height:20px;
+}
+
+
+.capt3{
+  padding-left: 150px;
+  position: relative;
+  top:325px;
+  height:20px;
+}
+.currency{
+   position: relative;
+   left:900px;
+   font-size: 30px;
+   color:white;
+   height:5px;
+   bottom:35px;
+}
+.discover{
+  position: relative;
+  left:950px;
+  font-size:30px;
+  color:white;
+  bottom:40px;
+  height:5px;
+}
+.mastercard{
+  position: relative;
+  left:1000px;
+  font-size:30px;
+  color:white;
+  bottom:45px;
+  height:5px;
+}
+.paypal{
+  position: relative;
+  left:1050px;
+  font-size:30px;
+  color:white;
+  bottom:50px;
+  height:5px;
+}
+.express{
+  position: relative;
+  left:1100px;
+  font-size:30px;
+  color:white;
+  bottom:55px;
+  height:5px;
+}
+.text{
+  top:10px;
+}
+.arrow{
+  position: relative;
+  left:1180px;
+  font-size:30px;
+  bottom:55px;
+  height:5px;
+}
+.left{
+  position: relative;
+  left:750px;
+}
+.left1{
+  position: relative;
+  left:750px;
+}
+.left2{
+  position: relative;
+ left:750px;  
+}
+html,body{
+ 
+  overflow-x: hidden;
+}
+
+.item {
+  position:relative;
+  display:inline-block;
+}
+.notify-badge{
+  position: absolute;
+  left:-1px;
+  top:2px;
+  background:orange;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+  color:white;
+  padding:5px 10px;
+  font-size:20px;
+}
+.notify-badge1{
+  position: absolute;
+  left:-1px;
+  top:2px;
+  background:red;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+  color:white;
+  padding:5px 10px;
+  font-size:20px;
+}
+.notify-badge2{
+  position: absolute;
+  left:-1px;
+  top:2px;
+  background:green;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+  color:white;
+  padding:5px 10px;
+  font-size:20px;
+}
+
